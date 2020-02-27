@@ -1,4 +1,4 @@
-function doToElementsInArray(array doFunction) {
+function doToElementsInArray(array, doFunction) {
   array.forEach(item => {
     doFunction(item)
   })
