@@ -1,6 +1,6 @@
-function doToElementsInArray(array, doFunction) {
+function doToElementsInArray(array, callback) {
   array.forEach(function(item){
-    doFunction(item)
+    callback(item)
   })
   return
 }
