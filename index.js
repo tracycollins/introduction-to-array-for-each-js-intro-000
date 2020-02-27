@@ -1,7 +1,5 @@
 function doToElementsInArray(array, callback) {
-  array.forEach(function(item){
-    callback(item)
-  })
+  array.forEach(callback)
   return
 }
 
